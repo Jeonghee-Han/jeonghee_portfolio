@@ -42,13 +42,13 @@ function TextWrap() {
           animate={{ ...OPACITY_1, y: WINDOW_HEIGHT }}
           transition={ANI_TRANSITION}
         >
-          프론트엔드 개발자 <StTxt>최지은</StTxt>입니다.
+          백엔드 개발자 <StTxt>한정희</StTxt>입니다.
           <BgText>
             <AnimationP
               initial={{ y: 150 }}
               animate={{ ...Y_0 }}
               transition={{ ...ANI_TRANSITION, delay: 1 }}
-            >Front-End</AnimationP>
+            >Back-End</AnimationP>
           </BgText>
         </MainTitle>
       </IntroAnimationDiv>
@@ -58,7 +58,7 @@ function TextWrap() {
         animate={{ ...OPACITY_1, ...Y_P10 }}
         transition={{ ...ANI_TRANSITION, delay: 3 }}
       >
-        사용자를 생각하는 <BoldTxt>역지사지</BoldTxt> 마인드,
+        제가 만든 API를 사용할<BoldTxt>동료 개발자의 경험</BoldTxt>까지 고민하며,
       </MainSubText>
       <MainSubText
         initial={{ ...OPACITY_0, ...Y_0 }}
